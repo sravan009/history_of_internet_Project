@@ -3,7 +3,6 @@ html {
     padding: 0;
 }
 body {
-    font-family: 'Handlee', cursive;
     font-size: 13pt;
     background-color: cadetblue;
     padding: 10px;
@@ -31,7 +30,6 @@ p {
     border-radius: 10px;
 }
 #header {
-    background-image: url("header.jpg");
     background-size: cover;
 }
 #header img {
@@ -148,5 +146,4 @@ button {
 header {
     width: 100%;
     height: auto;
-    background-image: url('header.jpg');
 }
