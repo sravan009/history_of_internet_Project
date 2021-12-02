@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>third page</title>
+    <link rel="stylesheet" href="css_file.css">
+    <style>
+        img,
+        p {
+            display: inline-block;
+        }
+        img {
+            float: left;
+            height: 300px;
+        }
+        * {box-sizing: border-box;}
+
+        .header a. {
+            background-color: grey;
+            color: white;
+        }
+        .header-right {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+<div class="header-right">
+    <a href="A_layout.html"><h3>HOME</h3></a>
+</div>
+<div id="header" class="section">
+    <p>AAA TESTING</p>
+</div>
+
+<div class="section">
+    <h1><span>AAA testing with Python(Arrange-Act-Assert)</span></h1>
+    <p>
+        It stands for arrange, act, assert. AAA is a way to structure your unit tests so they're easier to read, maintain, and enhance.
+
+        Arrange/Act/Assert (AAA) is a pattern for arranging and formatting code in Unit Test methods.
+        It is a best practice to author your tests in more natural and convenient way. The idea is to develop a unit test by following these 3 simple steps:
+        <ul>
+            <li>Arrange – setup the testing objects and prepare the prerequisites for your test.</li>
+            <li>Act – perform the actual work of the test.</li>
+            <li>Assert – verify the result.</li>
+        </ul>
+    </p>
+</div>
+<div class="section">
+    <h1><span>Benefits of Using Arrange Act Assert</span></h1>
+    <p>
+        <ul>
+            <li>Clearly separates what is being tested from the setup and verification steps.
+            <li>Clarifies and focuses attention on a historically successful and generally necessary set of test steps.
+            <li>Makes some test smells more obvious:
+            <li>Assertions intermixed with "Act" code.
+            <li>Test methods that try to test too many things at once.
+        </ul>
+    </p>
+</div>
+<div class="section">
+    <h1><span>Arrange/Act/Assert with JustMock</span></h1>
+    <p>
+        Lets illustrate the benefits of the pattern with an example. We will use a sample warehouse and a dependent order object.
+        The warehouse holds inventories of different products. An order contains a product and quantity.
+    </p>
+</div>
+<footer>
+    <p>&copy; SravanKumar Gatla</p>
+</footer>
+</body>
+</html>
